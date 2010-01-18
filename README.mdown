@@ -29,11 +29,11 @@ PS: I appreciate any translation to the above quote.
 Interesting links
 -----------------
 
-- Main repository: [github.com/Burgestrand/functran](http://github.com/Burgestrand/functran)
-- NoKahuna project: [nokahuna.com/projects/10246](http://nokahuna.com/projects/10246/)
-- Original idea: [www.phpportalen.net/viewtopic.php?t=109258](http://www.phpportalen.net/viewtopic.php?t=109258)
-- Code guidelines: http://nokahuna.com/projects/10246/messages/5 (Swedish)
-- GitHub guides: http://help.github.com/
+- Main repository: <http://github.com/Burgestrand/functran>
+- NoKahuna project: <http://nokahuna.com/projects/10246/>
+- Original idea: <http://www.phpportalen.net/viewtopic.php?t=109258> (Swedish)
+- Code guidelines: <http://nokahuna.com/projects/10246/messages/5> (Swedish)
+- GitHub guides: <http://help.github.com/>
 
 
 License
