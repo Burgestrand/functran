@@ -1,0 +1,50 @@
+Functran
+========
+
+[Peppe L-G said in a thread at PHPPortalen:](http://www.phpportalen.net/viewtopic.php?t=109258)
+
+> Det är kanske inte en helt ny idé, men jag har inte sett den
+> någonstans än, och om ni vet en sida med samma idé får ni gärna
+> länka till den (jag eftersöker en sån tjänst i alla fall).
+
+> Idén är i alla fall att man ska kunna ange en funktion i ett språk
+> och få tillbaka namnet på funktionen i ett annat språk. Om man
+> till exempel väljer funktionen explode, anger att den finns i PHP
+> och vill ha den i Javascript så får man tillbaka split, vilket är
+> den motsvarande funktionen i Javascript. (alternativt en egenskapad
+> funktion i javascript som gör det som explode gör i PHP, om en
+> motsvarande funktion inte finns inbyggd i språket).
+>
+> Finns det en sida som erbjuder detta? Om det inte gör det, tror ni
+> att det kan vara en idé värd att utveckla? Jag skulle i alla fall
+> använda en sådan tjänst, den kan nog vara en väldig tillgång när
+> man lär sig ett nytt språk.
+
+The idea received a nice response, so we figured we’d build it. We’ll 
+develop it as open source under the codename “ƒunc(tran)”.
+
+PS: I appreciate any translation to the above quote.
+
+
+Interesting links
+-----------------
+
+- Main repository: [github.com/Burgestrand/functran](http://github.com/Burgestrand/functran)
+- NoKahuna project: [nokahuna.com/projects/10246](http://nokahuna.com/projects/10246/)
+- Original idea: [www.phpportalen.net/viewtopic.php?t=109258](http://www.phpportalen.net/viewtopic.php?t=109258)
+- Code guidelines: http://nokahuna.com/projects/10246/messages/5 (Swedish)
+- GitHub guides: http://help.github.com/
+
+
+License
+-------
+
+As already mentioned we’ve (more or less) agreed on releasing the source
+under one of the popular open source licenses. Which one is still under
+discussion, so for a week or so we’ll be under regular copyright.
+
+
+Frequently Asked Questions
+--------------------------
+
+No frequently asked questions yet.
