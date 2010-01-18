@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <title>ƒunc(tran)</title>
+        
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.0.0/build/cssreset/reset-min.css">
+        <style type="text/css" media="screen">
+            html, body {
+                    background: #2a2a2a;
+                    color: white;
+                    font: 100.01%/1.35 'Courier', monospace;
+                    height: 100%;
+                    text-shadow: black 2px 2px 2px;
+                    width: 100%;
+                    }
+            .wrap {
+                    height: inherit;
+                    margin: 0 auto;
+                    position: relative;
+                    width: 58em;
+                    }
+            
+            
+            /* typography */
+            p { width: 36em; }
+            a, code, cite.query {
+                    border-bottom: 1px solid;
+                    color: #9CF;
+                    padding-bottom: .1em;
+                    text-decoration: none;
+                    }
+            
+            
+            /* header */
+            body > .header {
+                    background: #1d4c7a url('stripes.png');
+                    border-bottom: .2em solid #1d1d1d;
+                    padding: 1em 0;
+                    text-align: center;
+                    }
+            h1 {
+                    color: white;
+                    font: 4em/1 'Courier', monospace;
+                    text-shadow: black 2px 2px 2px;
+                    }
+            h1 a {
+                    color: inherit;
+                    border: 0;
+                    }
+            /* description */
+            h1 + p {
+                    margin: 1em auto;
+                    position: relative;
+                    }
+            code {
+                    font: 1.4em/1 monospace;
+                    }
+            /* form */
+            form.search p {
+                    width: auto;
+                    }
+            form.search input {
+                    padding: .2em;
+                    }
+            
+            
+            /* content */
+            .section.body {
+                    border-top: 2px solid #CC9329;
+                    padding: 1em 0 1em;
+                    }
+            .results {
+                    margin: 1em 0;
+                    }
+            
+            /* result table */
+            table {
+                    border: 1px solid #333;
+                    margin: 0 auto;
+                    text-align: left;
+                    width: 100%;
+                    }
+            /* header */
+            thead {
+                    background: url('stripes.png');
+                    border: .1em solid #333;
+                    }
+            /* content */
+            th, td {
+                    padding: .8em .4em;
+                    }
+            td.language {
+                    vertical-align: top;
+                    }
+            th.code, td.code {
+                    width: 70%;
+                    }
+            th.votes, td.votes {
+                    text-align: right;
+                    }
+            pre {
+                    line-height: 1em;
+                    text-shadow: none;
+                    }
+            tr {
+                    border-top: 1px solid #333;
+                    border-bottom: 1px solid #333;
+                    }
+            /* footer */
+            tfoot {
+                    border-top: 1px solid #333;
+                    color: #666;
+                    font-size: .8em;
+                    text-align: center;
+                    text-shadow: none;
+                    }
+            
+            /* footer */
+            body > .footer {
+                    border-top: .1em solid #333;
+                    color: #666;
+                    font-size: .8em;
+                    line-height: 1.5em;
+                    margin: 0 auto;
+                    padding-top: 1em;
+                    text-align: center;
+                    text-shadow: none;
+                    width: 80%;
+                    }
+            body > .footer li {
+                    display: inline;
+                    }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="wrap">
+                <h1><a href="/">ƒunc(tran)</a></h1>
+                <p>
+                    Enter your query in the format <code class="query">strtolower in php to javascript</code>.
+                    Any element of the query can be left out to provide a different type of result.
+                </p>
+                <form class="search" action="" method="get" accept-charset="utf-8">
+                    <p>
+                        <input type="text" name="query" size="60">
+                        <input type="submit" value="Translate">
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div class="section body">
+            <div class="wrap">
+                <table class="section results">
+                    <caption>
+                        Search results matching: <cite class="query"><var>echo</var> in <var>php</var></cite>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="language">language</th>
+                            <th class="code">code example</th>
+                            <th class="votes">quality</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">
+                                12 results in 4 languages found in 0.0023 seconds.
+                            </td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr id="actionscript">
+                            <td class="language">
+                                <a href="?query=php+to+actionscript">actionscript</a>
+                            </td>
+                            <td class="code">
+                                <pre class="code actionscript">-echo "Hello, world!"</pre>
+                            </td>
+                            <td class="votes">
+                                <a href="#">512 +</a> / <a href="#">28 -</a>
+                            </td>
+                        </tr>
+                        <tr id="haskell">
+                            <td class="language" rowspan="2">
+                                <a href="?query=php+to+haskell">haskell</a>
+                            </td>
+                            <td class="code">
+                                <pre class="code haskell">putStr "Hello, world!"</pre>
+                            </td>
+                            <td class="votes">
+                                <a href="#">412 +</a> / <a href="#">89 -</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="code">
+                                <pre class="code haskell">putStrLn "Hello, world!"</pre>
+                            </td>
+                            <td class="votes">
+                                <a href="#">87 +</a> / <a href="#">512 -</a>
+                            </td>
+                        </tr>
+                        <tr id="javascript">
+                            <td class="language">
+                                <a href="?query=php+to+javascript">javascript</a>
+                            </td>
+                            <td class="code">
+                                <pre class="code javascript">document.write('Hello, world!')</pre>
+                            </td>
+                            <td class="votes">
+                                <a href="#">583 +</a> / <a href="#">27 -</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="/developers.html">the developers</a>
+            | <a href="http://github.com/Burgestrand/functran">github repository</a>
+            | <a href="/contact.html">contact us</a>
+        </div>
+        
+        <!-- jQuery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+            $('form.search input[type="submit"]').click(function(event) {
+                $('caption cite').text($('form.search input[name="query"]').val())
+                event.preventDefault()
+            })
+            
+            // Each <code rel="query"> enters its’ query into search box
+            $('code[class="query"]').each(function() {
+                this.style.cursor = 'pointer'
+                $(this).click(function() {
+                    $('form.search input[name="query"]').val($(this).text())
+                })
+            })
+            
+            // Votes (:P)
+            $('td.votes a').click(function() {
+                var sign = /\+|-/.exec($(this).text())
+                $(this).text(eval($(this).text() + ' 1') + ' ' + sign[0])
+            })
+        </script>
+    </body>
+</html>
