@@ -35,6 +35,11 @@ Interesting links
 - Code guidelines: <http://nokahuna.com/projects/10246/messages/5> (Swedish)
 - GitHub guides: <http://help.github.com/>
 
+Notes to contributors
+---------------------
+
+Functran has a [coding standard](http://nokahuna.com/projects/10246/messages/5), written in Swedish, that we’d like you
+to follow as closely as possible. Hopefully this will be translated some day…
 
 License
 -------
