@@ -1,0 +1,128 @@
+html, body {
+        background: #2a2a2a;
+        color: white;
+        font: 100.01%/1.35 'Courier', monospace;
+        height: 100%;
+        text-shadow: black 2px 2px 2px;
+        width: 100%;
+        }
+.wrap {
+        height: inherit;
+        margin: 0 auto;
+        position: relative;
+        width: 58em;
+        }
+
+
+/* typography */
+p { width: 36em; }
+a, code, cite.query {
+        border-bottom: 1px solid;
+        color: #9CF;
+        padding-bottom: .1em;
+        text-decoration: none;
+        }
+
+
+/* header */
+body > .header {
+        background: #1d4c7a url('stripes.png');
+        border-bottom: .2em solid #1d1d1d;
+        padding: 1em 0;
+        text-align: center;
+        }
+h1 {
+        color: white;
+        font: 4em/1 'Courier', monospace;
+        text-shadow: black 2px 2px 2px;
+        }
+h1 a {
+        color: inherit;
+        border: 0;
+        }
+/* description */
+h1 + p {
+        margin: 1em auto;
+        position: relative;
+        }
+code {
+        font: 1.4em/1 monospace;
+        }
+/* form */
+form.search p {
+        width: auto;
+        }
+form.search input {
+        padding: .2em;
+        }
+
+
+/* content */
+.section.body {
+        border-top: 2px solid #CC9329;
+        padding: 1em 0 1em;
+        }
+.results {
+        margin: 1em 0;
+        }
+
+/* result table */
+table {
+        border: 1px solid #333;
+        margin: 0 auto;
+        text-align: left;
+        width: 100%;
+        }
+caption {
+        margin: 0 0 .5em;
+        }
+/* header */
+thead {
+        background: url('stripes.png');
+        border: .1em solid #333;
+        }
+/* content */
+th, td {
+        padding: .8em .4em;
+        }
+td.language {
+        vertical-align: top;
+        }
+th.code, td.code {
+        width: 70%;
+        }
+th.votes, td.votes {
+        text-align: right;
+        }
+pre {
+        line-height: 1em;
+        text-shadow: none;
+        }
+tr {
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+        }
+/* footer */
+tfoot {
+        border-top: 1px solid #333;
+        color: #666;
+        font-size: .8em;
+        text-align: center;
+        text-shadow: none;
+        }
+
+/* footer */
+body > .footer {
+        border-top: .1em solid #333;
+        color: #666;
+        font-size: .8em;
+        line-height: 1.5em;
+        margin: 0 auto;
+        padding-top: 1em;
+        text-align: center;
+        text-shadow: none;
+        width: 80%;
+        }
+body > .footer li {
+        display: inline;
+        }
