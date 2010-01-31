@@ -38,16 +38,14 @@ Interesting links
 Notes to contributors
 ---------------------
 
-Functran has a [coding standard](http://nokahuna.com/projects/10246/messages/5), written in Swedish, that we’d like you
-to follow as closely as possible. Hopefully this will be translated some day…
+Functran has a [coding standard](http://nokahuna.com/projects/10246/messages/5), written in Swedish, that we’d like you to follow as closely as possible if you want to make contributions. Hopefully this will be translated some day…
 
 License
 -------
 
-As already mentioned we’ve (more or less) agreed on releasing the source
-under one of the popular open source licenses. Which one is still under
-discussion, so for a week or so we’ll be under regular copyright.
+We’re making the source code available under [GNU AGPL](http://en.wikipedia.org/wiki/Affero_General_Public_License) v3. The full license text is available at <http://www.gnu.org/licenses/agpl-3.0.html>. This means you may do whatever you want with our code. However, everything you do that is based on our code must be released under GNU AGPL, as well as have a link where to download the complete source code.
 
+Contact one of the main developers if you need something else arranged. We’re not unreasonable. :)
 
 Frequently Asked Questions
 --------------------------
