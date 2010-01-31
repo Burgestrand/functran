@@ -95,7 +95,11 @@ th.votes, td.votes {
         text-align: right;
         }
 pre {
-        line-height: 1em;
+		background: #333;
+		border: 1px solid #999;
+		font-size: 1.2em;
+        line-height: 1.15em;
+		padding: .5em;
         text-shadow: none;
         }
 tr {
@@ -126,3 +130,18 @@ body > .footer {
 body > .footer li {
         display: inline;
         }
+
+/* code display */
+.lines {
+	border: 0;
+	border-right: 1px solid #555;
+	float: left;
+	font: inherit;
+	margin-right: .5em;
+	text-align: right;
+	padding: 0 .5em 0 0;
+    width: auto;
+    }
+.lines a {
+    border: 0;
+	}

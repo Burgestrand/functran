@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <title>ƒunc(tran)</title>
+        
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.0.0/build/cssreset/reset-min.css">
+        <link rel="stylesheet" href="../../style.css" type="text/css" media="screen" title="no title">
+        <style type="text/css" media="screen">
+            p.footer {
+                color: #666;
+                font-size: .8em;
+                margin: .5em 0;
+                text-align: right;
+                text-shadow: none;
+                width: inherit;
+                }
+            li {
+                margin: 1em 0;
+                }
+            .comments {
+                margin: 1em 0;
+                }
+            .comments li {
+                margin: 1em 0 1em 2em;
+            	text-shadow: none;
+                }
+            .comments .content {
+                background: #333;
+                border: 1px solid #555;
+                font-size: .8em;
+                padding: .5em;
+                }
+            .comments .footer {
+                text-align: left;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="wrap">
+                <h1><a href="../../">ƒunc(tran)</a></h1>
+                <p>
+                    Enter your query in the format <code class="query">strtolower in php to javascript</code>.
+                    Any element of the query can be left out to provide a different type of result.
+                </p>
+                <form class="search" action="" method="get" accept-charset="utf-8">
+                    <p>
+                        <input type="text" name="query" size="60">
+                        <input type="submit" value="Translate">
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div class="section body">
+            <div class="wrap">
+                <h2>strtolower in php to javascript</h2>
+                <ol>
+                   <li>
+                        <pre class="code javascript">document.write('Hello, world!')</pre>
+                        <!-- Suggestion footer -->
+                        <p class="footer">
+                            suggested by <a href="#">Kim Burgestrand</a> | <a href="#">512 +</a> / <a href="#">20 -</a>
+                        </p>
+                       
+                        <!-- Suugestion comments -->
+                        <ol class="comments">
+                            <li>
+                                <div class="content">
+                                    <p>This does not work when using XHTML</p>
+                                </div>
+                                <p class="footer">
+                                    written by <a href="#">OMGWTFBBQ</a>
+                                </p>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <p>Why upvote this? #2 suggestion so much better</p>
+                                </div>
+                                <p class="footer">
+                                    written by <a href="#">/b/</a>
+                                </p>
+                            </li>
+                        </ol>
+                   </li>
+                   <li>
+                        <pre class="code javascript">var element = document.getElementsByTagName('body')[0]
+body.innerHTML = 'Hello, world!'</pre>
+                        <p class="footer">
+                            suggested by <a href="#">OMGWTFBBQ</a> | <a href="#">512 +</a> / <a href="#">20 -</a>
+                        </p>
+                   </li>
+                </ol>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="/developers.html">the developers</a>
+            | <a href="http://github.com/Burgestrand/functran">github repository</a>
+            | <a href="/contact.html">contact us</a>
+        </div>
+        
+        <!-- jQuery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+            $('form.search input[type="submit"]').click(function(event) {
+                $('caption cite').text($('form.search input[name="query"]').val())
+                event.preventDefault()
+            })
+            
+            // Each <code rel="query"> enters its’ query into search box
+            $('code[class="query"]').each(function() {
+                this.style.cursor = 'pointer'
+                $(this).click(function() {
+                    $('form.search input[name="query"]').val($(this).text())
+                })
+            })
+            
+            $('pre.code').each(function() {
+                var size = $(this).text().split('\n').length
+                var content = "";
+                for (var i = 1; i <= size; ++i)
+                {
+                    content += '<a href="#' + i + '">' + i + '</a>\n'
+                }
+                $(this).html('<pre class="lines">' + content + '</pre>' + $(this).text())
+            })
+        </script>
+    </body>
+</html>
